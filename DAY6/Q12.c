@@ -14,7 +14,7 @@ int main(){
                 printf("The number is zero\n");
                    } 
             else{
-            printf("the number is positive");
+            printf("The number is positive");
             }
            
         }

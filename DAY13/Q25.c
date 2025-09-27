@@ -29,12 +29,12 @@ int main(){
         break;
 
         case '/':
-        if(b!=0){
+            if(b!=0){
             printf("%d/%d=%d\n",a,b,a/b);
-        }
-        else{
+            }
+            else{
             printf("divison by 0 is not valid");
-        }
+            }
         break;
 
         case '%':

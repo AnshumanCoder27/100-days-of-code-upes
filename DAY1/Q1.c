@@ -13,6 +13,5 @@ int main(){
     int sum=a+b;
 
     printf("Total sum = %d", sum);
-
     return 0;
 }
