@@ -1,0 +1,33 @@
+//Write a program to print the following pattern:
+
+#include <stdio.h>
+
+int main() {
+    int i, j, space;
+    int rows = 4; 
+
+    
+    for (i = 0; i < rows; i++) {
+        space = rows - i - 1;
+        for (j = 0; j < space; j++) {
+            printf(" ");
+        }
+        for (j = 0; j < 2 * i + 1; j++) {
+            printf("*");
+        }
+        printf("\n");
+    }
+
+    for (i = rows - 2; i >= 0; i--) {
+        space = rows - i - 1;
+        for (j = 0; j < space; j++) {
+            printf(" ");
+        }
+        for (j = 0; j < 2 * i + 1; j++) {
+            printf("*");
+        }
+        printf("\n");
+    }
+
+    return 0;
+}
